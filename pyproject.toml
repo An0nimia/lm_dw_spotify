@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "lm-dw-spotify"
+version = "0.0.1b01"
+description = "Liberum Melodian Library for making easy tracks downloading from Spotify"
+authors = ["An0nimia <41164945+An0nimia@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+requests = "^2.32.3"
+pydantic = "^2.7.4"
+pywidevine = "^1.8.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
